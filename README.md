@@ -20,12 +20,7 @@ from the singular value decomposition (SVD) perspective to analysis attention la
 Althought the dimention of d_k was eliminated by formulation MN*NK=MK, but it was sediment as rank in result, and it was exposure because svd analysis method. no matter how bigger of mutil-metrices, how much epochs to train, how much gradients to update, it cant exceed that it as bound up of rank, and what become the hard contrain of attention model, I mean its restric into the d_k subspace dim.
 
 d_k的维度虽然通过MN*NK=MK的方式消掉了，但是它始终作为秩隐含在结果当中，通过svd，它作为奇异值又重新显式暴露了出来。即使模型的矩阵乘法规模再大，无论训练多少轮，梯度如何更新，它作为秩上界是无法突破的，它的维度成为qkv模型表达能力的硬约束，也就是限制在d_k的子空间维度内。
-<<<<<<< HEAD
 
-### Experimental Environment 实验环境：
-- Python 3.13
-- PyTorch 2.12.0
-- matplotlib 3.11.0
 
 ![SVD奇异值谱](assets/svd_spectrum.png)
 
