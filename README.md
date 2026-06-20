@@ -3,6 +3,7 @@
 
 ### Project Overview 项目简介：
 from the singular value decomposition (SVD) perspective to analysis attention layer
+
 对单头attention机制做svd奇异值分解，验证d_k维度作为秩上界对attention机制表达能力的硬约束
 
 ### Theoretical Basis 理论基础：
