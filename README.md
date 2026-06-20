@@ -27,7 +27,7 @@ d_k的维度虽然通过MN*NK=MK的方式消掉了，但是它始终作为秩隐
 - PyTorch 2.12.0
 - matplotlib 3.11.0
 
-![SVD奇异值谱](assets/qkv_svd.png)
+![SVD奇异值谱](assets/svd_spectrum.png)
 
 
 ### Experimental Environment 实验环境：
